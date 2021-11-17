@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jazz-Night Ticketbuchung</title>
+
+</head> 
+<body>
+    <!--<img class="" id="goethe" src="images/cropped-logo_goethe-jazz-1.jpg" alt="picture not availabe"> --> 
+    <h1>Tickets für die Jazz-Night</h1>
+    <p>Hier können Sie Ticktes für die Jazz-Night buchen</p>
+</body>
+
+</html>
+
+<style>
+        img {
+            width: 65px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+    </style>
+
+    width="65" height="65"
+
+
+
+
+
+
+

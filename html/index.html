@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tickets für Jazz-Night.</title>
+    
+</head> 
+<body>
+    <img src="images/goethe.jpg" alt="pic not available[Goethe]">
+    <style>
+        img {
+            width: 65px;
+            padding-left: 30px;
+            padding-top: 10px;
+        }
+    </style>
+    
+    <h1>Goethe-Jazz</h1>
+
+    <h3>Hier können Sie Ticktes für die Jazz-Night buchen</h3>
+</body>
+    <div class="elem-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="visitor_name" placeholder="Max Mustermann" pattern=[A-Z\sa-z]{3,20} required>
+    </div>
+    <div class="elem-group">
+      <label for="email">E-Mail</label>
+      <input type="email" id="email" name="visitor_email" placeholder="max@mustermann.de" required>
+    </div>
+    <hr>
+    <div class="elem-group inlined">
+        <p>Bitte wählen Sie die Anzahl der Tickets:</p>
+      <label for="adults">Erwachsen</label>
+      <input type="number" id="adult" name="total_adults" placeholder="2" min="1" required>
+    </div>
+    <div class="elem-group inlined">
+      <label for="children">Ermäßigt</label>
+      <input type="number" id="child" name="total_children" placeholder="2" min="0" required>
+    </div>
+    <div class="elem-group inlined">
+        <p>Bitte wählen Sie den Tag der Jazz-Night</p>
+      <label for="date"></label>
+      <input type="date" id="concert-date" name="checkin" required>
+    </div>
+    <button type="submit">Bestätigen</button>
+
+    <hr>
+    <h3>Wichtige Informationen zur Jazz-Night:</h3>
+    <p>Die Jazz-Night findet als 2G Veranstaltung statt. Bitte bringen Sie entsprechende Nachweise mit, diese werden beim Einlass kontrolliert.</p>
+    <p>Durch die reduzierte Besucheranzahl diesmal an 3 Abenden. (11.11, 12.11, 13.11 2021)</p>
+    <p>Falls Sie Ihre Tickets spontan nicht mehr benötigen, oder weitere Fragen haben, senden sie bitte eine E-Mail an tickets@goethe-jazz.de</p>
+  </form>
